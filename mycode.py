@@ -9,6 +9,14 @@ data = {'Name': ['Alice', 'Bob', 'Charlie'],
 
 df = pd.DataFrame(data)
 
+new_df = pd.DataFrame({
+    'Name' : ['John'],
+    'Age' : [45],
+    'City' : ['Indiana']
+})
+
+df = pd.concat([df, new_df], ignore_index = True)
+
 # creating data directory
 
 data_dir = './data'
