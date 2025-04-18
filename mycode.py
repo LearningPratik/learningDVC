@@ -9,10 +9,18 @@ data = {'Name': ['Alice', 'Bob', 'Charlie'],
 
 df = pd.DataFrame(data)
 
+# new_df = pd.DataFrame({
+#     'Name' : ['John'],
+#     'Age' : [45],
+#     'City' : ['Indiana']
+# })
+
+# df = pd.concat([df, new_df], ignore_index = True)
+
 new_df = pd.DataFrame({
-    'Name' : ['John'],
-    'Age' : [45],
-    'City' : ['Indiana']
+    'Name' : ['Ted'],
+    'Age' : [35],
+    'City' : ['Texas']
 })
 
 df = pd.concat([df, new_df], ignore_index = True)
