@@ -18,9 +18,9 @@ df = pd.DataFrame(data)
 # df = pd.concat([df, new_df], ignore_index = True)
 
 new_df = pd.DataFrame({
-    'Name' : ['Ted'],
-    'Age' : [35],
-    'City' : ['Texas']
+    'Name' : ['Mosby'],
+    'Age' : [36],
+    'City' : ['NYC']
 })
 
 df = pd.concat([df, new_df], ignore_index = True)
